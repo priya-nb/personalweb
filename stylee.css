@@ -8,13 +8,13 @@ nav h1{
     color: #8c19a9;
     margin-left: 5%;
 }
-/*
+
 
 body{
-    background-color:rgb(197, 223, 229);
-    /*background-image: url("priya.jpeg");
+    background-color:rgb(147, 159, 161);
+   
 }
-*/
+
 .total{
     position:relative;
     width: 100%;
@@ -97,6 +97,10 @@ nav ul li a:hover{
     border:2px solid blue;
 }
 
+.card1:hover{
+    background-color: rgb(234, 134, 134);
+}
+
 .card-content{
     padding: 20px;
     height: 30px;
@@ -140,8 +144,6 @@ nav ul li a:hover{
 }
 
 
-
-
 /* project card*/
 
 .card2 {
@@ -172,6 +174,10 @@ nav ul li a:hover{
     
 
 }
+.card2:hover{
+
+    background-color: #65cdc2;
+}
 .ttotal{
 
    
@@ -192,7 +198,7 @@ nav ul li a:hover{
     
 }
 
-@media screen and (max-width:957px) {
+@media screen and (max-width:750px) {
     .cardss {
         flex-direction: column;
         justify-content:center;
@@ -317,3 +323,4 @@ nav ul li a:hover{
     }
 
 }
+
