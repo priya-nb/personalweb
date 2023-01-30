@@ -1,3 +1,5 @@
+/*
+
 *{
     margin:0px;
     padding:0px;
@@ -143,8 +145,12 @@ nav ul li a:hover{
 
 }
 
+*/
+
+/* need to remove this*/
 
 /* project card*/
+/*
 
 .card2 {
     width: 450px;
@@ -225,9 +231,14 @@ nav ul li a:hover{
 
 }
 
+
+*/
+
+/* need to remove above comment */
+
 /* main-page*/
 
-
+/*
 .section{
     width: 100%;
     min-height: 100vh;
@@ -322,5 +333,400 @@ nav ul li a:hover{
     
     }
 
+}
+
+*/
+
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* nav section */
+hr{
+
+   border: 1px solid black; 
+}
+nav h1{
+    color: #8c19a9;
+    margin-left: 5%;
+}
+
+body{
+
+
+    background-color: #ddd;
+}
+
+/*
+.total{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+}
+    */
+
+nav{
+    display:flex;
+    top:0;
+    padding:20px 0;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #10697ffc;
+    left: 0;
+    position: sticky;
+    
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:deeppink;
+}
+
+.Intro{
+    margin-left: 8%;
+    margin-top:15%;
+}
+
+
+.Intro h1{
+    font-size:40px;
+    color: #8c19a9;
+    margin-bottom:20px;
+}
+
+.Intro p{
+    color:rgb(68, 24, 114);
+    font-size:25px;
+}
+
+.hd{
+    text-align: center;
+    
+}
+.knmab{
+  
+    margin-left:10px;
+    margin-right: 10px;
+    border:0px solid rgb(21, 24, 26);
+    padding:5px 5px 5px 5px;
+    
+    box-shadow: 4px 4px 4px 0 rgb(49, 190, 157);
+    border-radius: 5px;
+}
+
+
+
+/* Educational details */
+.cards{
+   
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2%;
+        
+    
+}
+
+.card1 {
+    width: 350px;
+    height: 250px;
+    background-color: #f3f8f9;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin:1%;
+    border:2px solid blue;
+}
+
+.card1:hover{
+    background-color: rgb(234, 134, 134);
+}
+
+.card-content{
+    padding: 20px;
+    height: 30px;
+    text-align: left;
+    padding-bottom: 5px;
+    color:darkgreen;
+    }
+    
+
+.cards card1 card-content{
+    padding-bottom:100px;
+}
+
+
+
+
+@media screen and (max-width:957px) {
+    .cards{
+        flex-direction: column;
+        justify-content:space-evenly;
+    }
+    
+    .card1{
+        width:150px;
+        margin: 30px;
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+   
+
+    .card1{
+        width: 240px;
+        margin: 0.3%;
+    }
+   
+    
+
+}
+
+
+/* project card*/
+
+.card2 {
+    width: 450px;
+    height: 250px;
+    background-color: #f3f8f9;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin:2%;
+    border:2px solid rgba(182, 104, 76, 0.777);
+
+}
+
+.cardcontent{
+    padding: 20px;
+    height: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    color: rgb(205, 12, 131);
+
+    
+}
+.cardss{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+    
+
+}
+.card2:hover{
+
+    background-color: #65cdc2;
+}
+
+
+
+@media screen and (max-width:750px) {
+    .cardss {
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .card2{
+        width:150px;
+        margin: 30px;
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+    .card-header{
+        width: 200px;
+    }
+
+    .card2{
+        width: 240px;
+        margin: 0.3%;
+    }
+   
+    
+
+}
+
+
+
+
+
+/* about me */
+
+.scontent{
+    text-align:left;
+    margin: 5%;
+    padding-left: 10px;
+    color:rgb(91, 45, 95);
+    font-size: 20px;
+    
+    
+}
+
+.ed{
+    color: rgb(30, 20, 220);
+   margin-top: 5px;
+    text-align: center;
+}
+
+/* main-page*/
+
+
+.section1{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+
+
+
+}
+.container{
+    width:90%;
+    display:flex;
+    margin: auto;
+   
+    padding-top: 100px;
+    
+   justify-content: space space-evenly;
+   /* border-radius: 10px;
+    margin:2%;
+    border:2px solid rgba(182, 104, 76, 0.777);*/
+}
+
+.container content-section{
+    float:left;
+    width:65%;
+}
+
+.container img-section{
+    float:right;
+    width:70%;
+    display: flex;
+}
+.img-section img{
+    width:95%;
+    height: 65vh;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .ct h3{
+    margin-top: 20px;
+    color:#5d5d5d;
+    font-size: 19px;
+}
+.content-section .ct p{
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-left: 6px;
+    line-height:1.5;
+    color: cornflowerblue;
+}
+/*
+.content-section .ct .button{
+    margin-top: 30px;
+}
+
+.content-section .ct .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px;
+    letter-spacing:1.5px;
+}
+.content-section .ct .button a:hover{
+    background-color: rgb(255, 0, 195);
+    color: #8c19a9;
+}*/
+
+@media screen and (max-width:768px){
+    .container{
+        width:80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .container content-section{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+
+
+    }
+
+    .container img-section{
+
+        float:none;
+        width:100%;
+        display: block;
+        margin:auto;
+
+    }
+    .content-section{
+        text-align:center;
+        font-size: 19px;
+    }
+    /*
+    .content-section .ct .button{
+        text-align: center;
+    }
+    .content-section .ct .button a{
+        padding: 9px 30px;
+    
+    }
+*/
+}
+
+
+
+
+@media screen and (min-width:1050px){
+    .container{
+        width:80%;
+        display: flex;
+        margin: auto;
+        padding-top: 50px;
+        justify-content: space-evenly;
+    }
+
+    .container content-section{
+        float:right;
+        width:100%;
+      
+        margin:auto;
+
+
+    }
+
+    .container img-section{
+
+        float:left;
+        width:100%;
+     
+        margin:auto;
+
+    }
 }
 
